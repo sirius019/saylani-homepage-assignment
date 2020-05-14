@@ -1,0 +1,13 @@
+.section6{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.img-box{
+  padding: 0;
+  margin: 1px;
+  margin-top:30px;
+}
+.section .row img{
+  max-width:auto;
+  height:auto;
+}

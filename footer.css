@@ -1,0 +1,41 @@
+.footer-container{
+  padding-top:70px;
+  padding-bottom: 40px;
+}
+.about{
+  color: rgb(187,187,187);
+}
+.about i{
+  color: green;
+  margin-right: 5px;
+  
+}
+.about p{
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+.link-connect h5{
+  color:white;
+}
+.connect div{
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  height:40px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #316DC3;
+}
+.connect div i{
+  color: white;
+  vertical-align: center;
+}
+.blue-footer{
+  background-color:  #316DC3;
+}
+.blue-footer p{
+  color : white;
+}

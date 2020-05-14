@@ -1,0 +1,73 @@
+.dash{
+  background-color: green;
+  width: 65px;
+  height: 3px;
+  position: relative;
+  top: 10px;
+}
+.mb-35{
+ margin-bottom: 35px;
+}
+.p-15{
+  padding:15px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.section5 .bg-light{
+  border: 1px solid rgb(243, 240, 240);
+}
+.section5 h2{
+  color: #316DC3;
+}
+.section5 h6{
+  color: #316DC3;
+  display: inline-block;
+  margin-top: 10px;
+}
+.mr-30{
+  margin-right: 30px;
+}
+
+.section5 img{
+  margin-top: -10px;
+}
+
+.greyline{
+  background-color: rgb(243, 240, 240);
+  width: 100%;
+  height: 1px;
+  position: relative;
+  top: 15px;
+}
+.dash-2{
+  background-color: green;
+  width: 65px;
+  height: 3px;
+  bottom:2px;
+  position: relative;
+}
+.moving-event-box{
+  width:250px;
+  height:200px;
+  overflow: hidden;
+}
+@keyframes moveup{
+  100%{
+    transform: translateY(-100%);
+  }
+}
+.moving-event{
+  display: inline-block;
+  padding-top: 80%;
+  animation: moveup 20s linear infinite;
+}
+.moving-event:hover {
+  animation-play-state: paused;
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+.event{
+  color: grey;
+}

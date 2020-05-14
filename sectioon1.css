@@ -1,0 +1,53 @@
+@keyframes scroll{
+  100%{
+    transform: translateX(-100%);
+  }
+}
+.news-container{
+  background-color: #316DC3;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.news-ticket:hover {
+  animation-play-state: paused;
+}
+.news-ticket{
+  display: inline-block;
+  padding-left: 100%;
+ animation: scroll 40s linear infinite;
+}
+.news-date{
+  color: rgb(0, 255, 0);
+}
+.news{
+  color: white;
+}
+.more-details a{
+  text-decoration: none;
+  color:blue;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel-item img{
+    height: 700px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel-item img{
+    height: 600px !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-item img{
+    height: 500px !important;
+  }
+}
+.bg-light{
+  background-color: #f7f8fa!important;
+}

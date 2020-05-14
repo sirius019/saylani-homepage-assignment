@@ -1,0 +1,77 @@
+.blue-top-bar{
+  background-color: #316DC3;
+  font-size: 14px;
+  padding: 10px;
+}
+.header-icon{
+  display: inline-block;
+  margin-right: 7px;
+  height: 30px;
+  width: 30px;
+  margin-top: 4px;
+}
+.header-icon i{
+color: white;
+}
+.header-icon img{
+  height: 20px;
+  width: 20px;
+}
+.blue-top-bar-txt{
+  color: white;
+  margin-top: 5px;
+}
+.blue-top-bar-btn a{
+  border: 1px solid green;
+  color: green;
+  border-radius: 0px;
+  font-size: 11px;
+  padding: 5px 10px;
+}
+.btn-xs{
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.navbar{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-img{
+  max-height:52px;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropright:hover .dropdown-menu{
+  display: block;
+}
+
+.nav-item a{
+  font-weight: 500;
+  color: #333 !important;
+  margin: 0 2px;
+  padding: 7px 15px !important;
+  font-size: 14px;
+}
+.nav-item a:hover{
+  background-color: #316DC3;
+  border-radius: 30px;
+  color: white !important;
+}
+.active a{
+  background-color: #316DC3;
+  border-radius: 30px;
+  color: white !important;
+}
+
+.dropdown-menu a{
+  margin: 0px;
+  transition: padding-left 0.2s linear;
+}
+.dropdown-menu a:hover{
+    margin: 0px;
+    padding-left: 25px !important;
+    border-radius: 0px;
+}

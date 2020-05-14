@@ -1,0 +1,39 @@
+.intro-h1{
+  white-space: nowrap;
+}
+.blue-part{
+  color: #316DC3;
+  display: inline;
+}
+.green-part{
+  color: green;
+  display: inline;
+}
+.section2{
+  padding-top: 60px;
+  padding-bottom:60px;
+}
+.intro-para p{
+  text-align: justify;
+}
+.dash-left{
+  color: green;
+  display: inline-block;
+  background-color: green;
+  width: 36px;
+  height: 2px;
+  position: relative;
+  top: 20px;
+  margin-right: 5px;
+}
+.dash-right{
+  color: green;
+  display: inline-block;
+  background-color: green;
+  width: 36px;
+  height: 2px;
+  position: relative;
+  top: 20px;
+  margin-left: 5px;
+}
+

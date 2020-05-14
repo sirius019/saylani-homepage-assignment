@@ -1,0 +1,23 @@
+.section3{
+ background-color: rgb(28, 28, 248);
+}
+.section3-div{
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+.sec3-column h1{
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+.white-part{
+  color: white;
+}
+.light-green-part{
+  color:  rgb(0, 255, 0);
+}
+.section3 h6 span{
+  font-size: 14px;
+}
+.section3 img{
+  height: 40px;
+}
